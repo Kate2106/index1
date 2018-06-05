@@ -1,0 +1,44 @@
+div{
+	border: 1px solid #BA55D3;
+	font-size: 20px;
+	margin: 10px; 
+	background-color: #FF00FF; 
+        font-family: Times New Roman;
+        width: 1000px;
+        font-size: 14pt;
+}
+
+#b1{background-image: url(image.jpg);
+}
+
+#b2{
+        text-align: center;
+	background-color: pink;
+        width: 970px;
+        height: 190px;
+        margin: 10px;
+        padding-bottom: 20px;
+}
+	
+#b3{ 
+	width:20%;
+    float:left;
+    background-color: #FF0080;
+}
+
+#b4{
+    width:75%;
+    float:left;
+}
+
+#b5{
+   width:97.5%;
+   background-color:#FF0040;
+   clear:both;
+}
+#b6{
+   text-align: center;
+   width:97.5%;
+   background-color:#81BEF7;
+   clear:both;
+}
