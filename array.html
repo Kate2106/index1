@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>Итог</title>
+        <meta charset="utf-8">
+        <script src="jrs1.js">
+	</script>
+    </head>
+    <body> 
+<div id="1">
+<p>Задание 7</p>
+<p>Написать функцию, для проверки правильности заполнения поля &quot;номер телефона&quot; в форме.
+Правильным считается, если поле:
+ 
+заполнено (не пусто);
+содержит только цифры и знаки &quot;-&quot;;
+знаки &quot;-&quot; не идут подряд и не стоят в начале.конце номера;
+Далее Вам необходимо создать форму с именем &quot;Test&quot;, в которой помещены:
+ 
+поле ввода с именем &quot;In&quot;;
+поле ввода с именем &quot;Result&quot;;
+кнопка &quot;Enter&quot;, которая при нажатии должна вызывать Вашу функцию, передав ей в качестве
+аргумента строку из поля &quot;In&quot;, а результат работы функции вывести в поле &quot;Result&quot;. Более
+конкретно, обработка нажатия кнопки должна выглядеть так:
+onclick=&quot;document.getElementById(&#39;Result&#39;).value=имя_функции(document.getElementById(&#39;In&#39;)
+.value)&quot;
+где имя_функции необходимо заменить на имя Вашей функции.
+В поле &quot;Result&quot; следует выводить слово &quot;Okay&quot;, если проверка прошла успешно и &quot;Fail&quot; в
+противном случае.</p>
+<form>
+		<p><input id="num" type="number" name="input"  value="">Ввести номер телефона</p>
+		<input type="button" name="nym" value="Проверка номера телефона" onclick="document.getElementById('result').value=f1(document.getElementById('num').value)">
+		<p><input id="result" type="text" value=""></p>
+</form>
+		
+</div>
+   
+</body>
+</html>
