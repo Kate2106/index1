@@ -20,11 +20,11 @@ function f1(input)
 {
 	return "Fail";
 }
-	if(input.indexOf("-")==-1)
+	if(input.indexOf("-")==0)
 {
 	return "Fail";
 }
-	if(input.lastIndexOf("-")==-1)
+	if(input.lastIndexOf("-")==input.length)
 {
 	return "Fail";
 }
