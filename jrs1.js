@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }
 function f1(input)
 {		
-	var x1="123456789-";
+	var x1="-123456789";
 	var ff="O'key";
 if(!input)
 {
