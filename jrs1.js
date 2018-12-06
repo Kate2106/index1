@@ -11,7 +11,7 @@ elements.push(element);
 return elements; }
 function f1(input)
 {		
-	var x1="-123456789";
+	var x1="123456789-";
 	var ff="O'key";
 if(!input)
 {
@@ -19,10 +19,10 @@ if(!input)
 }
 	
 	var x3 = input.split("-");
-if(!x3[0]||!x3[x3.length-1])
+/*if(!x3[0]||!x3[x3.length-1])
 {
 	ff="Fail";
-}
+}*/
 if(input.indexOf('--')!=-1)
 	{
 	ff="Fail";
