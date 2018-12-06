@@ -19,7 +19,9 @@ if(!input)
 }
 	
 	var x3 = input.split("-");
-if(!x3[0]||/*!x3[x3.length-1]*/)
+	var x4=x3.length-1;
+	alert(x4);
+if(!x3[0]||!x3[x4])
 {
 	ff="Fail";
 }
