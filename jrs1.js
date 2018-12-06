@@ -20,7 +20,7 @@ if(!input)
 	
 	var x3 = input.split("-");
 	var x4=x3.length-1;
-	alert("x4");
+	alert("fae");
 if(!x3[0]||!x3[x4])
 {
 	ff="Fail";
