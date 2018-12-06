@@ -11,22 +11,26 @@ elements.push(element);
 return elements; }
 function f1(input)
 {		
-	var x1=["1","2","3","4","5","6","7","8","9","-"];
-if(input.indexOf("")==0)
+	var x1="123456789-";
+	var ff="O'key";
+if(!input)
 {
-	return "Fail";
-}
-	var x2 = new String(document.getElementsById("num"));
-	var x3 = x2.split("-");
-if(x3.indexOf("")==0)
-{
-	return "Fail";
+	ff="Fail";
 }
 	
+	var x3 = input.split("-");
+if(!x3[0]||!x3[x3.length-1])
+{
+	ff="Fail";
+}
+if(input.indexOf('--')!=-1)
+	{
+	ff="Fail";
+}
 for(i=0;i<input.length;i++)
 {	
 	if(x1.indexOf(input.charAt(i))==-1)
-	return "Fail";
+	ff="Fail";
 }
-return "Okay";
+	return ff;
 }
