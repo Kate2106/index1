@@ -19,10 +19,10 @@ if(!input)
 }
 	
 	var x3 = input.split("-");
-/*if(!x3[0]||!x3[x3.length-1])
+if(!x3[0]||/*!x3[x3.length-1]*/)
 {
 	ff="Fail";
-}*/
+}
 if(input.indexOf('--')!=-1)
 	{
 	ff="Fail";
